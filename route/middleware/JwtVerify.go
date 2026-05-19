@@ -21,7 +21,8 @@ type UserClaims struct {
 }
 
 var (
-	secret = []byte("16849841325189456f489")
+	secret       = []byte("16849841325189456f489")
+	refreshToken = []byte("gofly_refresh_secret_key_2024") // 刷新token专用密钥
 )
 
 var Expirre = "180"
@@ -98,7 +99,7 @@ func Refresh(tokenString string) interface{} {
 		return time.Unix(0, 0)
 	}
 	token, err := jwt.ParseWithClaims(tokenString, &UserClaims{}, func(token *jwt.Token) (interface{}, error) {
-		return secret, nil
+		return refreshToken, nil
 	})
 	if err != nil {
 		panic(err)

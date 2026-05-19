@@ -37,6 +37,9 @@ func (config *Config) InitializeConfig() *Config {
 		if err := vip.Unmarshal(&config); err != nil {
 			fmt.Println(err)
 		}
+		// 注意：配置变更后需手动调用 model.MyInit() 重连数据库
+		// 以及重新初始化Redis连接池
+		fmt.Println("配置已重新加载，请手动重启服务使数据库连接生效")
 	})
 
 	err = vip.Unmarshal(&config)
