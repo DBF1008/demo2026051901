@@ -1,0 +1,5 @@
+package gform
+
+func NewBuilder(driver string) IBuilder {
+	return NewBuilderDriver().Getter(driver)
+}
