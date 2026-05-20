@@ -1,9 +1,0 @@
-{"level":"dev.info","ts":"[2026-05-20 07:29:54.298]","caller":"repo/main.go:13","msg":"项目启动成功"}
-{"level":"dev.info","ts":"[2026-05-20 07:29:54.314]","caller":"model/model.go:18","msg":"连接数据库中:1"}
-{"level":"dev.info","ts":"[2026-05-20 07:29:54.328]","caller":"model/model.go:23","msg":"数据库连接实例错误: Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)"}
-{"level":"dev.info","ts":"[2026-05-20 09:23:06.644]","caller":"repo/main.go:13","msg":"项目启动成功"}
-{"level":"dev.info","ts":"[2026-05-20 09:23:06.663]","caller":"model/model.go:18","msg":"连接数据库中:1"}
-{"level":"dev.info","ts":"[2026-05-20 09:23:06.692]","caller":"model/model.go:23","msg":"数据库连接实例错误: Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)"}
-{"level":"dev.info","ts":"[2026-05-20 09:36:44.522]","caller":"repo/main.go:13","msg":"项目启动成功"}
-{"level":"dev.info","ts":"[2026-05-20 09:36:44.530]","caller":"model/model.go:18","msg":"连接数据库中:1"}
-{"level":"dev.info","ts":"[2026-05-20 09:36:44.545]","caller":"model/model.go:23","msg":"数据库连接实例错误: Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)"}
